@@ -2,3 +2,29 @@ button{
     color:red;
     background-color:black;
 }
+
+.div1{
+    color:black;
+    background-color:rgb(38, 153, 253);
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.div2{
+    color:rgb(214, 177, 177);
+    background-color:rgb(21, 21, 22);
+    height:100px;
+    width:100px;
+    border:2px solid rgb(247, 2, 2);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
