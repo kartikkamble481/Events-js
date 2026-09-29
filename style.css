@@ -29,11 +29,11 @@ button{
 }
 
 .dark{
-    background-color:black;
+    background-color:rgb(44, 42, 42);
     color:white;
 }
 
 .light{
-    background-color:white;
+    background-color:rgb(215, 227, 232);
     color:black;
 }

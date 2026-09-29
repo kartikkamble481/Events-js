@@ -114,9 +114,29 @@ addbtn.addEventListener("click", x3);
 // x3 is remove
 addbtn.removeEventListener("click", x3);
 
+// let mode = document.querySelector(".mode");
+
+// let currmode = "dark";
+
+// let body = document.querySelector("body");
+
+// mode.addEventListener("click", (evt) => {
+//   if (currmode === "light") {
+//     currmode = "dark";
+//     body.classList.add("dark");
+//     body.classList.remove("light");
+//   } else {
+//     currmode = "light";
+//     body.classList.add("light");
+//     body.classList.remove("dark");
+//   }
+
+//   console.log(currmode, evt.type);
+// });
+
 let mode = document.querySelector(".mode");
 
-let currmode = "dark";
+let currmode = "light";
 
 let body = document.querySelector("body");
 
@@ -131,5 +151,5 @@ mode.addEventListener("click", (evt) => {
     body.classList.remove("dark");
   }
 
-  console.log(currmode, evt.type);
+  console.log(currmode);
 });
