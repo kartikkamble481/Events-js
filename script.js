@@ -1,7 +1,7 @@
 let btn1 = document.querySelector("#btn1");
 
 btn1.onclick = () => {
-  console.log("button was clicked");
+  console.log("mode = dark ");
 
   var mode = prompt("choose the mode  dark or light");
   let color;
@@ -43,10 +43,34 @@ div2.onmousedown = () => {
     console.log(codes, code);
     code++;
 
-    let names = "vaiduu";
+    // let names = "ka";
 
-    for (name in names) {
-      console.log(name, names);
-    }
+    // for (name of names) {
+    //   console.log(name);
+    // }
   }
+};
+
+let div3 = document.createElement("div");
+
+div3.innerText = "WELCOME";
+
+let hr1 = document.createElement("hr");
+
+document.querySelector("body").append(hr1);
+
+document.querySelector("body").append(div3);
+
+div3.style.color = "green";
+div3.style.backgroundColor = "orange";
+div3.style.height = "100px";
+div3.style.width = "100px";
+div3.style.border = "2px solid black";
+div3.style.display = "flex";
+div3.style.justifyContent = "center";
+div3.style.alignItems = "center";
+div3.style.alignContent = "center";
+
+div3.onmousedown = () => {
+  console.log("welcome to div3");
 };
